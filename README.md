@@ -1,6 +1,6 @@
 # EC2Instance 
-Sets up an EC2 Instance using SSH
-STEPS:
+## Sets up an EC2 Instance using SSH
+### STEPS:
 
 1. I set up the Key Pair
 	- proves for identity when connecting to instance
