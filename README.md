@@ -1,5 +1,5 @@
 # EC2Instance 
-## Sets up an EC2 Instance using SSH
+## Sets up remote access to a virtual server through Amazon's EC2
 ### STEPS:
 
 1. I set up the Key Pair
