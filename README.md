@@ -2,20 +2,20 @@
 ## Sets up remote access to a virtual server through Amazon's EC2
 ### STEPS:
 
-1. I set up the Key Pair
+1. Set up the Key Pair
 	- proves for identity when connecting to instance
 
-2. Created security group
-	- created inbound rules: ssh access for any IP, HTTP users from any location access to web server(including myself)
-	- created outbound rule: all traffic: any traffic is allowed out of EC2 instance(default)
+2. Create security group
+	- create inbound rules: ssh access for any IP, HTTP users from any location access to web server(including myself)
+	- create outbound rule: all traffic: any traffic is allowed out of EC2 instance(default)
 	
 
 3. Deploy the Instance
 	- Amazon Linux AMI
 	- t2.micro instance type
-	- chose my key pair i created earlier
-	- chose my security group i created earlier
-	- configured storage: chose “8” GiB, “gp2” root volume
+	- chose key pair created earlier
+	- chose security group created earlier
+	- configured storage: choose “8” GiB, “gp2” root volume
 	- pasted a script into "user data" field under advanced details
 	- NOW we are all set to launch instance
 
